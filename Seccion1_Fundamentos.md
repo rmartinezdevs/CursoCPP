@@ -83,14 +83,18 @@ for (int i = 0; i < 5; ++i)
 }
 ```
 
+
 ---
 
-## `static_cast`
+## Conversiones de tipos y `static_cast`
+
+En C++, puedes realizar conversiones de tipos entre variables para asegurar que los datos se manipulen correctamente. Para las conversiones más seguras y recomendadas, se utiliza `static_cast`.
 
 - El **`static_cast`** se usa para convertir de un tipo de dato a otro de manera explícita.
 - Es útil cuando necesitas realizar operaciones que solo funcionan con ciertos tipos, como el operador `%`, que solo funciona con enteros.
 
-### Ejemplo de uso:
+### Ejemplo de uso de `static_cast`:
+
 ```
 double num1 = 5.9;
 int entero = static_cast<int>(num1);
@@ -98,6 +102,9 @@ int entero = static_cast<int>(num1);
 std::cout << "Valor convertido: " << entero << std::endl;
 // Muestra: 5
 ```
+
+
+- El **`static_cast`** también puede ser usado para convertir punteros de una clase base a una clase derivada de manera controlada, aunque debe usarse con precaución.
 
 ---
 
