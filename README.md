@@ -10,7 +10,7 @@ El contenido del curso está organizado en diferentes secciones, cada una enfoca
 
 ## Secciones del curso
 
-### 1. [Fundamentos de C++](Seccion1_Fundamentos.txt)
+### 1. [Fundamentos de C++](Seccion1_Fundamentos.md)
 
 En esta sección se cubren los conceptos básicos de C++:
 - Estructura básica de un programa en C++.
@@ -22,7 +22,7 @@ En esta sección se cubren los conceptos básicos de C++:
 
 ---
 
-### 2. [Funciones y Modularidad](Seccion2_Funciones.txt)
+### 2. [Funciones y Modularidad](Seccion2_Funciones.md)
 
 Esta sección explica cómo definir y utilizar funciones en C++:
 - Paso de parámetros por valor y por referencia.
@@ -34,7 +34,7 @@ Esta sección explica cómo definir y utilizar funciones en C++:
 
 ---
 
-### 3. [Punteros y Memoria Dinámica](Seccion3_Punteros.txt)
+### 3. [Punteros y Memoria Dinámica](Seccion3_Punteros.md)
 
 Aquí se profundiza en la gestión de memoria y el uso de punteros:
 - Concepto de punteros y cómo funcionan.
