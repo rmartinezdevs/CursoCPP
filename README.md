@@ -1,7 +1,6 @@
-# Curso Completo de C++
+# Curso Completo de C++ - Repositorio Personal de Aprendizaje
 
-Este repositorio contiene todo el contenido teórico y práctico del curso completo de C++ que estoy desarrollando. El objetivo es dominar el lenguaje C++ al 100%, abarcando desde los fundamentos hasta temas avanzados como punteros inteligentes, gestión de memoria y modularidad en C++.
-
+Este repositorio contiene el contenido teórico y práctico del curso completo de C++ que estoy desarrollando personalmente. Su objetivo es documentar mi progreso en el dominio del lenguaje C++ al 100%, abarcando desde los fundamentos hasta temas avanzados.
 ## Estructura del repositorio
 
 El contenido del curso está organizado en diferentes secciones, cada una enfocada en un aspecto clave del lenguaje C++. A continuación se describe la estructura y el contenido disponible.
@@ -45,39 +44,32 @@ Aquí se profundiza en la gestión de memoria y el uso de punteros:
 
 ---
 
-## Prácticas
+### 4. [Arrays, Punteros y Vectores en C++](Seccion4_ArraysVectores.md)
 
-Cada sección incluye prácticas para aplicar los conceptos aprendidos. Estas son las prácticas más relevantes hasta ahora:
-
-### [Calculadora Modular](Practicas_CalculadoraModular.txt)
-
-- Implementación de una calculadora modular usando archivos `.h` y `.cpp`.
-- Soporta las operaciones básicas: suma, resta, multiplicación y división.
-  
-### [Punteros Inteligentes](Practicas_PunterosInteligentes.txt)
-
-- Ejemplos prácticos de cómo utilizar `unique_ptr`, `shared_ptr` y `weak_ptr`.
-- Gestión automática de la memoria utilizando punteros inteligentes para evitar fugas de memoria.
+En esta sección se cubren las estructuras de datos básicas para almacenar colecciones de datos en C++:
+- Arrays en C++: declaración, inicialización y acceso a elementos.
+- Arrays multidimensionales.
+- Uso de punteros con arrays.
+- Vectores de la STL (Standard Template Library): creación, manipulación y uso de `push_back()` y `pop_back()`.
+- Diferencias entre `i++` y `++i` en bucles.
+- Buenas prácticas al usar arrays y vectores, incluyendo cuándo elegir uno sobre el otro.
 
 ---
 
-## Cómo utilizar este repositorio
+### 5. [Ámbito de Variables y Tipos Definidos por el Usuario](Seccion5_Ambito_Variables.md)
 
-1. **Clona el repositorio**:
-```
-git clone https://github.com/rmartinezdevs/CursoCPP.git
-```
-
-2. **Navega por las secciones**: Cada sección contiene un archivo `.txt` con la teoría y ejemplos prácticos. Sigue el orden de las secciones para obtener una comprensión gradual del lenguaje.
-
-3. **Realiza las prácticas**: Cada sección contiene una o más prácticas que puedes realizar para reforzar el aprendizaje. Los archivos de las prácticas están en la carpeta `Practicas`.
+Esta sección se enfoca en el control del ámbito de variables y el uso de tipos definidos por el usuario:
+- Ámbito de variables: local, global y estática.
+- Constantes: `const` y `constexpr`, sus diferencias y cuándo utilizarlas.
+- Enumeraciones con `enum` y `enum class` y sus ventajas.
+- Lectura y escritura de archivos usando `fstream`.
+- Buenas prácticas en el control del ámbito y la creación de constantes.
 
 ---
 
 ## Recomendaciones
 
 - Es recomendable que uses un entorno de desarrollo adecuado como **Visual Studio 2022** o **Visual Studio Code** con extensiones de C++.
-- Siempre intenta realizar las prácticas por ti mismo antes de revisar los ejemplos proporcionados.
 - Documenta tu progreso, y si encuentras mejoras o errores, siéntete libre de contribuir al repositorio.
 
 ---
