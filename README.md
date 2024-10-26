@@ -1,6 +1,7 @@
 # Curso Completo de C++ - Repositorio Personal de Aprendizaje
 
 Este repositorio contiene el contenido teórico y práctico del curso completo de C++ que estoy desarrollando personalmente. Su objetivo es documentar mi progreso en el dominio del lenguaje C++ al 100%, abarcando desde los fundamentos hasta temas avanzados.
+
 ## Estructura del repositorio
 
 El contenido del curso está organizado en diferentes secciones, cada una enfocada en un aspecto clave del lenguaje C++. A continuación se describe la estructura y el contenido disponible.
@@ -64,6 +65,23 @@ Esta sección se enfoca en el control del ámbito de variables y el uso de tipos
 - Enumeraciones con `enum` y `enum class` y sus ventajas.
 - Lectura y escritura de archivos usando `fstream`.
 - Buenas prácticas en el control del ámbito y la creación de constantes.
+
+---
+
+### 6. [Clases y Objetos en C++](Seccion6_ClasesObjetos.md)
+
+Esta sección cubre los conceptos fundamentales de la Programación Orientada a Objetos (POO) en C++:
+- **Definición de clases y objetos**: Conceptos básicos y cómo se relacionan.
+- **Constructores y destructores**: Diferentes tipos de constructores (predeterminado, parametrizado y de copia) y el uso del destructor para liberar recursos.
+- **Encapsulación**: Uso de modificadores de acceso (`public`, `private`, `protected`) y métodos `getter` y `setter`.
+- **Herencia**: Cómo una clase puede heredar atributos y métodos de otra, incluyendo los tipos de herencia (`public`, `protected`, `private`).
+- **Polimorfismo**: Uso de funciones virtuales y el operador `override` para personalizar comportamientos en clases derivadas.
+- **Clases abstractas**: Definición de métodos virtuales puros y cómo se implementan en clases derivadas.
+- **Buenas prácticas en OOP**:
+  - Inicialización de atributos en el constructor.
+  - Uso de `override` y destructores para evitar fugas de memoria.
+  - Cuándo elegir entre herencia y composición.
+  - Aplicación de principios como el principio de responsabilidad única.
 
 ---
 
