@@ -85,6 +85,23 @@ Esta sección cubre los conceptos fundamentales de la Programación Orientada a 
 
 ---
 
+### 7. [Sobrecarga de Operadores en C++](Seccion7_SobrecargaOperadores.md)
+
+Esta sección introduce la sobrecarga de operadores para clases personalizadas:
+- **Introducción a la Sobrecarga de Operadores**: Motivos y beneficios de sobrecargar operadores en C++.
+- **Sintaxis de Sobrecarga de Operadores**: Cómo definir operadores sobrecargados dentro y fuera de la clase.
+- **Tipos de Operadores que se pueden Sobrecargar**: Lista de operadores permitidos y no permitidos en la sobrecarga.
+- **Ejemplos Comunes de Sobrecarga**: Sobrecarga de operadores `+`, `==`, `<<`, y `-` unario.
+- **Buenas prácticas**:
+  - Usar sobrecarga solo cuando tenga sentido lógico.
+  - Aplicar `const` cuando sea posible.
+  - Preferir el uso de `friend` para operadores de entrada y salida.
+  - Evitar sobrecargar operadores innecesarios y respetar la simetría.
+
+---
+
+
+
 ## Recomendaciones
 
 - Es recomendable que uses un entorno de desarrollo adecuado como **Visual Studio 2022** o **Visual Studio Code** con extensiones de C++.
