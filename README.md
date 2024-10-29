@@ -68,7 +68,7 @@ Esta sección se enfoca en el control del ámbito de variables y el uso de tipos
 
 ---
 
-### 6. [Clases y Objetos en C++](Seccion6_ClasesObjetos.md)
+### 6. [Clases y Objetos en C++](Seccion6_ClasesYObjetos.md)
 
 Esta sección cubre los conceptos fundamentales de la Programación Orientada a Objetos (POO) en C++:
 - **Definición de clases y objetos**: Conceptos básicos y cómo se relacionan.
