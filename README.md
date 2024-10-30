@@ -100,6 +100,23 @@ Esta sección introduce la sobrecarga de operadores para clases personalizadas:
 
 ---
 
+### 8. [Programación Genérica en C++](Seccion8_ProgramacionGenerica.md)
+
+En esta sección exploramos cómo hacer el código más flexible y reutilizable con el uso de plantillas en C++:
+- **Plantillas de Función**: Creación de funciones genéricas.
+- **Plantillas de Clase**: Definición de clases que pueden trabajar con cualquier tipo de dato.
+- **Parámetros de Plantilla Múltiples**: Uso de múltiples tipos en funciones y clases.
+- **Deducción de Tipos y Especificación Explícita de Tipos**: Cómo especificar tipos en plantillas.
+- **Especialización de Plantillas**: Definir comportamientos específicos para ciertos tipos de datos.
+- **Plantillas con Parámetros Constantes**: Creación de estructuras de tamaño fijo en tiempo de compilación.
+- **Ventajas y Consideraciones**: Eficiencia, flexibilidad y limitaciones.
+- **Buenas prácticas**:
+  - Nombres claros para los parámetros de tipo.
+  - Modularizar el Código.
+  - Evitar Uso Excesivo.
+  - Documentación adecuada.
+
+---
 
 
 ## Recomendaciones
