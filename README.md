@@ -140,6 +140,22 @@ En esta sección se explora la **Standard Template Library (STL)**, que proporci
 
 ---
 
+### 10. [Iteradores Avanzados y Operaciones en Contenedores](Seccion10_IteradoresAvanzados.md)
+
+En esta sección se explora el uso avanzado de iteradores en C++ y operaciones en contenedores. Los principales temas son:
+
+- **Tipos de Iteradores**: Diferentes tipos de iteradores en la STL, como `Random Access Iterator`, `Bidirectional Iterator`, `Forward Iterator` y `Inserter Iterator`, cada uno con funcionalidades específicas.
+- **Iteradores Constantes**: Uso de iteradores constantes para proteger datos y evitar modificaciones accidentales.
+- **Iteradores Inversos**: Uso de iteradores inversos para recorrer contenedores desde el final al principio.
+- **Operaciones Avanzadas en Contenedores**: Inserciones en rangos específicos, búsquedas condicionales y manipulación de contenedores con `std::copy`, `std::inserter`, `std::find_if`, entre otros.
+- **Buenas Prácticas**: 
+  - Usar iteradores constantes para asegurar la inmutabilidad de los datos.
+  - Seleccionar el iterador adecuado según la operación.
+  - Aprovechar los algoritmos de la STL para optimizar la legibilidad y rendimiento.
+  - Minimizar copias innecesarias de elementos y utilizar referencias cuando sea posible.
+
+---
+
 ## Recomendaciones
 
 - Es recomendable que uses un entorno de desarrollo adecuado como **Visual Studio 2022** o **Visual Studio Code** con extensiones de C++.
