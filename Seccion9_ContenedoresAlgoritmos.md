@@ -1,5 +1,5 @@
 
-# Contenedores y Algoritmos en la STL
+# Sección 9: Contenedores y Algoritmos en la STL
 
 La **Standard Template Library** (STL) es un componente central de C++ que contiene plantillas de datos y herramientas optimizadas para operaciones comunes, facilitando el desarrollo y mantenimiento de código. La STL incluye tres grandes categorías de componentes: **contenedores**, **iteradores** y **algoritmos**.
 
