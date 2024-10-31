@@ -118,6 +118,27 @@ En esta sección exploramos cómo hacer el código más flexible y reutilizable 
 
 ---
 
+### 9. [Contenedores y Algoritmos en la STL](Seccion9_STL.md)
+
+En esta sección se explora la **Standard Template Library (STL)**, que proporciona herramientas optimizadas para trabajar con colecciones de datos en C++. Los principales temas son:
+
+- **Contenedores Secuenciales**: Almacenan elementos en un orden definido. Incluye `vector`, `list` y `deque`.
+- **Contenedores Asociativos**: Estructuras organizadas que permiten búsquedas rápidas. Incluye `set` y `map`.
+- **Contenedores de Tipo Pilas y Colas**: Modelan estructuras de datos LIFO y FIFO. Incluye `stack`, `queue` y `priority_queue`.
+- **Iteradores**: Objetos para recorrer y manipular elementos de los contenedores.
+- **Algoritmos de la STL**: Funciones genéricas como `sort`, `find`, `accumulate`, entre otros, para modificar, buscar y contar elementos en contenedores.
+- **Buenas Prácticas**:
+  - Selección adecuada de contenedores para cada caso.
+  - Uso eficiente de iteradores sin copiar datos innecesariamente.
+  - Aprovechar los algoritmos de la STL para mejorar rendimiento y claridad.
+- **Recomendaciones según la Necesidad**:
+  - `vector` para accesos rápidos a elementos.
+  - `deque` para inserciones y eliminaciones en ambos extremos.
+  - `list` para operaciones frecuentes en cualquier punto del contenedor.
+  - `set` para garantizar unicidad y accesos rápidos.
+  - `map` para pares clave-valor con búsqueda eficiente.
+
+---
 
 ## Recomendaciones
 
