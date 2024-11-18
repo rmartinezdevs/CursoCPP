@@ -1,4 +1,4 @@
-# **Sección 1: Fundamentos de C++**
+# **Tema 1: Fundamentos de C++**
 
 ## **Introducción**
 
@@ -19,7 +19,8 @@ Un programa en C++ comienza siempre con la función `main()`. Es el punto de ent
 ```
 #include <iostream> // Biblioteca estándar para entrada y salida
 
-int main() {
+int main()
+{
     std::cout << "¡Hola, Mundo!" << std::endl; // Imprime en la consola
     return 0; // Indica que el programa terminó correctamente
 }
@@ -90,9 +91,12 @@ Los operadores permiten realizar cálculos y comparaciones.
 #### **Estructuras condicionales**:
 Permiten ejecutar bloques de código según condiciones.
 ```
-if (edad >= 18) {
+if (edad >= 18)
+{
     std::cout << "Eres mayor de edad." << std::endl;
-} else {
+}
+else
+{
     std::cout << "Eres menor de edad." << std::endl;
 }
 ```
@@ -102,7 +106,8 @@ Se utilizan para repetir bloques de código.
 
 1. **`for`**: Ideal para iteraciones conocidas.
    ```
-   for (int i = 1; i <= 5; ++i) {
+   for (int i = 1; i <= 5; ++i)
+   {
        std::cout << "Iteración: " << i << std::endl;
    }
    ```
@@ -110,7 +115,8 @@ Se utilizan para repetir bloques de código.
 2. **`while`**: Repite mientras una condición sea verdadera.
    ```
    int i = 1;
-   while (i <= 5) {
+   while (i <= 5)
+   {
        std::cout << "Iteración: " << i << std::endl;
        i++;
    }
@@ -119,7 +125,8 @@ Se utilizan para repetir bloques de código.
 3. **`do-while`**: Similar a `while`, pero siempre ejecuta el bloque al menos una vez.
    ```
    int i = 1;
-   do {
+   do
+   {
        std::cout << "Iteración: " << i << std::endl;
        i++;
    } while (i <= 5);
